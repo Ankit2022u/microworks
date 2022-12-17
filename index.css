@@ -1,0 +1,22 @@
+:root{
+    --primary-color: orange;
+    --primary-color-alt: #f89951;
+    --bgcolor: #eee;
+}
+body{
+    background-color: var(--bgcolor);
+}
+.btn-primary{
+    background-color: var(--primary-color);
+    --mdb-btn-box-shadow: 0 4px 9px -4px --primary-color-alt;
+}
+.text-orange{
+    color: var(--primary-color-alt) !important;
+}
+.logo-design{
+    width: 140px;
+    height: 140px;
+    justify-self: center;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
