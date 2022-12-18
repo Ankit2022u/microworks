@@ -23,7 +23,7 @@
     
         echo '
         <script>
-            window.location="home/home.html";
+            window.location="dashboard/dashboard.php";
         </script>
         ';
     } else {
