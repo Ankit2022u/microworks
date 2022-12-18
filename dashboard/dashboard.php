@@ -30,7 +30,7 @@
     </div>
     <div class="mytabs">
         <input type="radio" id="hometab" name="mytabs" checked="checked">
-        <label for="hometab">Chats</label>
+        <label for="hometab">Home</label>
         <section class="tab">
             <div class="row task">
                 <div class="col-sm-6">
