@@ -11,7 +11,8 @@
     if (mysqli_num_rows($check) > 0) {
 
         $userdata = mysqli_fetch_array($check);
-        $_SESSION['userid'] = $userdata['userid'];
+        $_SESSION['userdata'] = $userdata;
+        $_SESSION['login'] = true;
 
         // For testing purposes
         echo '
